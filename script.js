@@ -47,7 +47,7 @@ let completedGoalsCount = Object.values(allGoals).filter(
 ).length
 
 
-progressValue.style.width = `${completedGoalsCount / inputFields.length * 100}%`
+progressValue.style.width = `${completedGoalsCount / 3 * 100}%`
 progressValue.firstElementChild.innerText = `${completedGoalsCount}/${inputFields.length} completed`
 progressLable.innerText = allLables[completedGoalsCount]
 progressQoute.innerText = allQoutes[completedGoalsCount]
